@@ -11,4 +11,7 @@ if __name__ == '__main__':
              noOfCars = int(input())
              emergencyVehicle = bool(input())
              arr.append([lane, noOfCars, emergencyVehicle])
+# Set time for a complete cycle
+# To divide the total time between signals multiply by toatal time by proportion factor
+# Proportion factor is equal to (no. of cars in the respective lane) / (total no. of cars in all lanes)
 
